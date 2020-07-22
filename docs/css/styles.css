@@ -1,0 +1,28 @@
+.nike__wrapper {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url('../img/main__bg.png');
+    width: 800px;
+    height: 600px;
+    margin:0 auto;
+}
+
+.nike__card {
+    width: 686px;
+    height: 391px;
+    background-color: #111a28;
+    border-radius: 10px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+body {
+    position: relative;
+    margin-top: 150px;
+    background-color: #313C4B;
+}
