@@ -54,17 +54,40 @@
 }
 
 .nike__description {
-    margin-top: 10px;
-    margin-left: 112px;
-    margin-bottom: 20px;
-}
-
-.nike__description {
     opacity: 0.54;
     color: #e1e1e1;
     font-family: 'Museo Sans Rounded 100';
     font-size: 14px;
     line-height: 26px;
+    margin-top: 10px;
+    margin-left: 112px;
+    margin-bottom: 20px;
+}
+
+.nike__details {
+    display: flex;
+    margin-top: 27px;
+}
+
+.nike__size, .nike__qty {
+    
+    background-color: rgba(17,26,40, 0.8);;
+    border: 1px solid rgba(255,255,255, 0.26);
+    text-decoration: none;
+    color:rgba(225,225,225, 0.8);
+    font-family: 'Museo Sans Rounded 100';
+    font-size: 14px;
+    line-height: 18px;
+    width: 69px;
+    height: 24px;
+    padding-top: 9px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #281411;
+    transition: 0.3s;
 }
 
 ul {
