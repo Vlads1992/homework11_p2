@@ -126,3 +126,7 @@
 .slick-slide {
     outline: none
 }
+
+.slick-initialized {
+    visibility: visible;
+}
