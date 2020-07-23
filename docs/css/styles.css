@@ -49,6 +49,14 @@
     font-family: 'Museo Sans Rounded 100';
     font-size: 24px;
     line-height: 26px;
+    margin-top: 78px;
+    margin-left: 112px;
+}
+
+.nike__description {
+    margin-top: 10px;
+    margin-left: 112px;
+    margin-bottom: 20px;
 }
 
 .nike__description {
@@ -99,3 +107,34 @@ body {
     margin-top: 150px;
     background-color: #313C4B;
 }
+
+.nike__starswrapper{
+    overflow: hidden;
+    margin-left: 112px;
+  }
+  #review_stars {
+    overflow: hidden;
+    position: relative;
+    float: left;
+  }
+  #review_stars input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  #review_stars input ~ label i{
+    color:#ccc;
+  }
+  #review_stars input:checked ~ label i{
+    color: #ec9801;
+  }
+  #review_stars label {
+    float: right;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  }
+  #review_stars label:hover i, #review_stars label:hover ~ label i{
+    color: #ec9801;
+  }
