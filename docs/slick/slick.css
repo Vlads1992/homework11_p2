@@ -121,3 +121,7 @@
 .slick-initialized .slick-slide {
     display: flex;
 }
+
+.slick-slide {
+    outline: none
+}
