@@ -19,6 +19,79 @@
     position: absolute;
     left: 0;
     right: 0;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.nike__product {
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.nike__info {
+    display:flex;
+    flex-direction:column;
+}
+
+.nike__shoe {
+    padding-left: 36px;
+}
+
+.nike__logo {
+    padding-top: 24px;
+    padding-left: 21px;
+}
+
+.nike__title {
+    color: #e1e1e1;
+    font-family: 'Museo Sans Rounded 100';
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.nike__description {
+    opacity: 0.54;
+    color: #e1e1e1;
+    font-family: 'Museo Sans Rounded 100';
+    font-size: 14px;
+    line-height: 26px;
+}
+
+ul {
+    display: inline-flex;
+}
+
+li {
+    height:9px;
+    width:9px;
+    background:#ccc;
+    border-radius:50%;
+    margin-left:3px;
+    margin-right:3px;
+    cursor:pointer;
+}
+
+li:first-child {
+    background-color: #1f273f;
+}
+
+li:nth-child(2) {
+    background-color: white;
+}
+
+li:nth-child(3) {
+    background-color: #ed3333;
+}
+
+li:nth-child(4) {
+    background-color: #29e3ea;
+}
+
+img {
+    margin-right: auto;
+    
 }
 
 body {
