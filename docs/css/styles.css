@@ -26,7 +26,10 @@
 
 .nike__product {
     display:flex;
+    position: relative;
     flex-direction:column;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -37,11 +40,14 @@
 
 .nike__shoe {
     padding-left: 36px;
+    padding-top: 120px;
 }
 
 .nike__logo {
-    padding-top: 24px;
-    padding-left: 21px;
+    
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 .nike__title {
@@ -67,7 +73,9 @@
 .nike__details {
     display: flex;
     margin-top: 27px;
+    align-self: center;
 }
+
 
 .nike__size, .nike__qty {
     
@@ -83,6 +91,12 @@
     padding-top: 9px;
     text-align: center;
     cursor: pointer;
+    
+}
+
+.nike__size {
+    margin-right: 2px;
+    margin-left: 48px;
 }
 
 a:hover {
@@ -90,8 +104,38 @@ a:hover {
     transition: 0.3s;
 }
 
+.nike__button {
+    margin-top: 29px;
+    align-self: center;
+    
+}
+
+.nike__cart {
+    
+   
+    background-color: rgba(76,82,90, 0.8);;
+    border: 1px solid rgba(255,255,255, 0.26);
+    color: rgba(225,225,225, 0.8);
+    font-family: 'Museo Sans Rounded 100';
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
 ul {
     display: inline-flex;
+    margin-top: 45px;
 }
 
 li {
