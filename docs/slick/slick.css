@@ -119,12 +119,12 @@
 }
 
 .slick-initialized .slick-slide {
-    display: flex;
+    display: block; /* - here */ 
 }
 
 
 .slick-slide {
-    outline: none
+    outline: none;
 }
 
 .slick-initialized {
