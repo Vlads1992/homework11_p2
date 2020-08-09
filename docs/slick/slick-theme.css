@@ -122,12 +122,12 @@
 .slick-dots
 {
     position: absolute;
-    bottom: 20px;
-
+    bottom: -13px;
+    
     display: block;
 
     width: auto;
-    padding-left: 175px;
+    padding-left: 178px;
     margin: 0;
 
     list-style: none;
@@ -139,10 +139,10 @@
     position: relative;
 
     display: inline-block;
-
+    
     width: 9px;
     height: 9px;
-    margin: 0 5px;
+    margin: 0 4px;
     padding: 0;
     
     cursor: pointer;
@@ -218,8 +218,8 @@
 }
 .slick-dots li.slick-active 
 {
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     color: black;
     border: 2px solid rgba(255,255,255, 0.46);
     border-radius: 50%;
