@@ -17,11 +17,12 @@
 }
 
 .nike__card {
-    width: 674px;
-    height: auto;
-    padding-right: 23px;
-    padding-left: 1px;
-    padding-bottom: 34px;
+    width: 686px;
+    height: 400px;
+    
+    
+    
+    
     background-color: #111a28;
     border-radius: 10px;
     box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
@@ -52,15 +53,15 @@
 }
 
 .nike__shoe {
-    padding-left: 36px;
-    padding-top: 50px;
+    padding-left: 42px;
+    padding-top: 52px;
 }
 
 .nike__logo {
     
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 33px;
+    left: 28px;
 }
 
 .nike__title {
@@ -68,8 +69,10 @@
     font-family: 'Museo Sans Rounded 100';
     font-size: 24px;
     line-height: 26px;
-    margin-top: 78px;
-    margin-left: 112px;
+    margin-top: 84px;
+    margin-left: 39px;
+    letter-spacing: 0.2px;
+    /* text-align justify, padding, letter-spacing with negative value*/
 }
 
 .nike__description {
@@ -78,15 +81,16 @@
     font-family: 'Museo Sans Rounded 100';
     font-size: 14px;
     line-height: 26px;
-    margin-top: 10px;
-    margin-left: 112px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 39px;
+    margin-bottom: 18px;
+    letter-spacing: 0.2px;
 }
 
 .nike__details {
     display: flex;
     margin-top: 27px;
-    align-self: center;
+    
 }
 
 
@@ -100,10 +104,11 @@
     color:rgba(225,225,225, 0.8);
     font-family: 'Museo Sans Rounded 100';
     font-size: 14px;
-    line-height: 18px;
-    width: 69px;
-    height: 24px;
+    line-height: 14px;
+    width: 67px;
+    height: 21px;
     padding-top: 9px;
+    margin-bottom: 3px;
     text-align: center;
     cursor: pointer;
     
@@ -111,8 +116,26 @@
 
 .nike__size {
     margin-right: 2px;
-    margin-left: 48px;
+    margin-left: 39px;
 }
+
+.nike__arrow {
+    box-sizing: border-box;
+    margin-left: 9px;
+    height: 8px;
+    width: 8px;
+    vertical-align: top;
+    border-style: solid;
+    border: 1px solid #4c525a;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    display: inline-flex;
+  }
+
+.nike__arrow:hover {
+    border-color: white;
+}  
 
 a:hover {
     background-color: #281411;
@@ -120,8 +143,8 @@ a:hover {
 }
 
 .nike__button {
-    margin-top: 29px;
-    align-self: center;
+    margin-top: 26px;
+    
     
 }
 
@@ -133,19 +156,20 @@ a:hover {
     color: rgba(225,225,225, 0.8);
     font-family: 'Museo Sans Rounded 100';
     font-size: 14px;
-    line-height: 18px;
+    line-height: 14px;
     text-decoration: none;
 
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 55px;
+    padding-right: 58px;
     padding-top: 13px;
-    padding-bottom: 13px;
+    padding-bottom: 11px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 40px;
     cursor: pointer;
+    letter-spacing: 0.2px;
 }
 
 ul {
@@ -193,7 +217,7 @@ body {
 
 .nike__starswrapper{
     overflow: hidden;
-    margin-left: 112px;
+    margin-left: 37px;
   }
   #review_stars {
     overflow: hidden;
@@ -220,4 +244,8 @@ body {
   }
   #review_stars label:hover i, #review_stars label:hover ~ label i{
     color: #ec9801;
+  }
+
+  label{
+      font-size: 12px;
   }
